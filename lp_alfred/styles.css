@@ -1,0 +1,145 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E0E0E0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4D4D4D;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #FF7D43;
+    font-size: 3rem;
+}
+
+/* Seção de formulário */
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #F7F7F7;
+}
+
+.form-container {
+    max-width: 400px;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #FF7D43;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF7D43;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FF5722;
+}
+
+.disclaimer {
+    font-size: 0.75rem;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Seção de ajuda */
+.how-it-helps {
+    background-color: #FFF;
+    padding: 40px;
+    text-align: center;
+}
+
+.help-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #F7F7F7;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #FF7D43;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Seção de CTA */
+.cta-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #4D4D4D;
+}
+
+.cta-section button {
+    padding: 15px 30px;
+    background-color: #FF7D43;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cta-section button:hover {
+    background-color: #FF5722;
+}
+
+/* Rodapé */
+footer {
+    background-color: #F7F7F7;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: #FF7D43;
+    text-decoration: none;
+}
