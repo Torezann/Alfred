@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Resetando margens e padding padrão */
 * {
     margin: 0;
     padding: 0;
@@ -6,140 +6,157 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #E0E0E0;
+    font-family: Arial, sans-serif;
+    background-color: #E5E5E5;
     color: #333;
-    line-height: 1.6;
 }
 
-/* Cabeçalho */
+/* Estilos para o cabeçalho */
 header {
-    background-color: #4D4D4D;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
+    background-color: #4D4D4D;
 }
 
 header h1 {
-    color: #FF7D43;
-    font-size: 3rem;
+    color: #FF7F50;
+    font-size: 24px;
 }
 
-/* Seção de formulário */
+/* Estilos da seção do formulário */
 .form-section {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background-color: #F7F7F7;
+    background-color: #4D4D4D;
+    color: #333;
 }
 
 .form-container {
-    max-width: 400px;
-    background-color: #FFF;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.highlight {
-    color: #FF7D43;
-}
-
-form input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #CCC;
-    border-radius: 5px;
-}
-
-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #FF7D43;
-    color: #FFF;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #FF5722;
-}
-
-.disclaimer {
-    font-size: 0.75rem;
-    margin-top: 10px;
-    color: #666;
-}
-
-/* Seção de ajuda */
-.how-it-helps {
-    background-color: #FFF;
+    background-color: white;
     padding: 40px;
+    border-radius: 10px;
+    max-width: 500px;
     text-align: center;
 }
 
-.help-cards {
+.form-container h2 {
+    font-size: 22px;
+}
+
+.form-container .highlight {
+    color: #FF7F50;
+}
+
+form {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
     margin-top: 20px;
 }
 
-.card {
-    background-color: #F7F7F7;
-    padding: 20px;
-    border-radius: 10px;
-    width: 45%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
-.card img {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.card h3 {
-    color: #FF7D43;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-/* Seção de CTA */
-.cta-section {
-    text-align: center;
-    padding: 20px;
-    background-color: #4D4D4D;
-}
-
-.cta-section button {
-    padding: 15px 30px;
-    background-color: #FF7D43;
+button {
+    padding: 10px;
+    background-color: #FF7F50;
     color: white;
     border: none;
-    border-radius: 30px;
-    font-size: 1rem;
+    border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
 }
 
-.cta-section button:hover {
-    background-color: #FF5722;
+button:hover {
+    background-color: #e06d3f;
+}
+
+.terms {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+}
+
+.image-container {
+    margin-left: 200px;
+}
+
+.image-container img {
+    max-width: 1000px;
+    height: auto;
+}
+
+/* Seção de informações */
+.info-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #4D4D4D;
+    color: #333;
+}
+
+.info-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 1650px;
+    text-align: center;
+}
+
+.info-container .highlight {
+    color: #FF7F50;
+}
+
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-text {
+    max-width: 600px;
+}
+
+.info-text h3 {
+    color: #FF7F50;
+}
+
+.info-block img {
+    max-width: 300px;
+    height: auto;
+    align-items: left;
 }
 
 /* Rodapé */
 footer {
-    background-color: #F7F7F7;
     text-align: center;
+    background-color: #E5E5E5;
     padding: 20px;
-    font-size: 0.8rem;
+    margin-top: 40px;
+}
+
+footer button {
+    background-color: #FF7F50;
+    padding: 15px 30px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
 }
 
 footer a {
-    color: #FF7D43;
-    text-decoration: none;
+    color: #666;
+    font-size: 12px;
 }
